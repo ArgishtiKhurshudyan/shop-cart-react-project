@@ -1,0 +1,42 @@
+.navBar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #7f898b;
+  display: flex;
+  ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-left: 30px;
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: 500;
+      a {
+        color: rgb(8, 8, 43);
+        text-decoration: none;
+
+        &:hover {
+          color: rgb(173, 16, 16);
+        }
+      }
+    }
+  }
+
+  .icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #b1dce0;
+    right: 30px;
+    top: 15px;
+    cursor: pointer;
+
+    img {
+      width: 50px;
+      height: 50px;
+      display: inline;
+      cursor: inherit;
+    }
+  }
+}

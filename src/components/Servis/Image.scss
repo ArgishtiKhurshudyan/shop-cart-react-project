@@ -1,0 +1,72 @@
+.main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: crimson;
+
+  img {
+    width: 200px;
+
+    height: 200px;
+    // flex-direction: column;
+    margin-left: 45px;
+  }
+}
+
+.imageCard {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+
+  .imgs {
+    width: 300px;
+    height: 400px;
+    // border: 1px solid blue;
+    border-radius: 5px;
+    float: left;
+    margin: 7px;
+    margin-left: 50px;
+    background-color: #e6e6ff;
+
+    .title {
+      //   background-color: red;
+      height: 80px;
+      justify-content: center;
+      text-align: center;
+
+      h1 {
+        font-size: 15px;
+        width: 30px;
+        margin-top: 15px;
+      }
+    }
+    .btn {
+      width: 150px;
+      //   margin-left: 81px;
+      margin: 0 auto;
+
+      button {
+        width: 50px;
+        height: 44px;
+        margin-top: 45px;
+        padding: 0;
+        border: none;
+        cursor: pointer;
+        background: #9292db;
+        font-size: 22px;
+        font-weight: 800;
+        color: #1d1d2f;
+
+        &:hover {
+          background: #af305b;
+          color: white;
+        }
+      }
+
+      span {
+        font-size: 30px;
+        font-weight: 500;
+      }
+    }
+  }
+}
